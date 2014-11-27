@@ -36,6 +36,7 @@ public class FileEncoder61702 implements FileEncoderFN {
 					outStream);
 			int currentCharacter = inFileStream.read();
 			for (int i = 0; currentCharacter != -1; ++i) {
+
 				if (isPrime(i)) {
 					outFileStream.write(currentCharacter);
 				} else {
@@ -68,6 +69,7 @@ public class FileEncoder61702 implements FileEncoderFN {
 					outStream);
 			int currentCharacter = inFileStream.read();
 			for (int i = 0; currentCharacter != -1; ++i) {
+
 				if (isPrime(i)) {
 					outFileStream.write(currentCharacter);
 				} else {
